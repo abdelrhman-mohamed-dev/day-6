@@ -8,7 +8,7 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-zinc-900">
-      <div className="container flex justify-between items-center mx-auto py-5">
+      <div className=" lg:p-12 gap-6 max-lg:w-full flex justify-between max-md:flex-col max-md:gap-6 items-center mx-auto py-5">
         <div>
           <h1 className="text-white text-2xl font-bold">Get in Touch</h1>
           <div className="text-white flex gap-2 items-center pt-6">
@@ -25,8 +25,8 @@ const Footer = () => {
           Contact ME
         </button>
 
-        <div className="flex flex-col justify-center">
-          <div className="flex justify-center items-center gap-5 pb-3 w-[345px]">
+        <div className="flex flex-col justify-center w-[345px]">
+          <div className="flex justify-center items-center gap-5 pb-3 ">
             <FaLinkedin className="h-8 w-8" color="white" />
             <FaFacebook className="h-8 w-8" color="white" />
             <FaTwitter className="h-8 w-8" color="white" />

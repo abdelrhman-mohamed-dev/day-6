@@ -6,7 +6,7 @@ const Header = ({ image }) => {
         alt="profile image"
         className="w-full absolute h-screen object-cover"
       />
-      <div className="space-y-9 absolute top-1/3 left-14 text-center ">
+      <div className="space-y-9 absolute top-1/3 left-14 text-center max-md:left-0 max-md:right-0">
         <div className="space-y-5">
           <h1 className="text-4xl font-bold text-white">Abderhman Mohamed</h1>
           <h2 className="text-3xl text-white">web developer and designer</h2>
