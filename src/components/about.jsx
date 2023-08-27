@@ -1,3 +1,4 @@
+import Resume from "../assets/Abdelrhman Mohamed CV.pdf";
 const About = () => {
   return (
     <section className="h-80 w-full ">
@@ -19,9 +20,13 @@ const About = () => {
             totam possimus ipsa deleniti aut suscipit porro. Officiis, culpa
             voluptate?
           </p>
-          <button className="bg-zinc-800 p-4 border border-zinc-400 w-38 text-white  mr-20">
+          <a
+            download
+            href={Resume}
+            className="inline-block bg-zinc-800 p-4 border border-zinc-400 w-38 text-white  mr-20"
+          >
             Dawnload Resume
-          </button>
+          </a>
         </div>
       </div>
     </section>
